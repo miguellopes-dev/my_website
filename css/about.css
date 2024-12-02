@@ -123,22 +123,3 @@ nav li:first-child{
         width: 100%;
     }
 }
-
-h1{
-    color: purple;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    font-size: 5vw;
-}
-h2{
-    color: purple;
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    font-size: 5vw;
-}
