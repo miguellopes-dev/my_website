@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Bubble;
+    src: url(../fonts/RubikBubbles-Regular.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -29,8 +34,8 @@
     width: fit-content;
     height: 100%;    
     padding-left: 60px;
-    display: flex;
     margin-top: 1.5%;
+    display: flex;
 }
 
 .header-main-logo img {
@@ -57,6 +62,7 @@ nav li{
 }
 
 nav a {
+    font-family: Bubble, serif;
     font-size:x-large;
     height: 100%;
     padding: 0 40px;
