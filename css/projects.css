@@ -14,9 +14,6 @@ h2{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    font-size: 5vw;
+    font-size: 5vw;    
 }
 
-h2{
-    cursor: pointer;
-}

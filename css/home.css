@@ -9,3 +9,82 @@
 }
 
 /* Category section */ 
+
+.index-category{
+    width: 100%;
+    padding: 80px 0 ;    
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+
+.index-category-box{
+    width: 400px;
+    height: 400px;
+    background-color:#111;
+    border: 3px solid #ff7b2ed7;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;    
+}
+
+.index-category-box:nth-child(1){
+    background-image:url(../media/cyber-diary.jpg);
+}
+.index-category-box:nth-child(2){
+    background-image:url(../photos/5.jpg)
+}
+.index-category-box:nth-child(3){
+    background-image:url(../media/ctf.jpg);
+}
+
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.3;
+    transition: all ease-in-out 200ms;
+}
+
+.index-category-box:hover .dark-overlay{
+    opacity: 0;
+    cursor: pointer;
+}
+
+.index-category-box h3{
+    color: #a9d800;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    text-shadow: -1px 1px 2px #b2b2b2;
+    z-index: 100;
+}
+
+/*MOBILE VERSION*/
+
+@media only screen and (max-width:600px) {
+
+    .index-category{
+        row-gap: 30px;
+    }
+
+    .index-category-box{
+        width: 300px;
+        height: 300px;                
+    }
+
+    .index-category-box h3{
+        line-height: 45px;
+    }
+
+}
