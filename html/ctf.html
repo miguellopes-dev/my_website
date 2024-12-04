@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>miguel</title>
-    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../media/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/ctf.css">
 </head>
-<body> 
+<body>
 
     <div class="home">
 
         <video autoplay loop muted plays-inline class="background-video">
             <source src="../media/galaxy.mp4" type="video/mp4">
         </video>
-     
+    
         <nav>
             <ul class="sidebar">
-                <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                 <li><a href="home.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="projects.html">PROJECTS</a></li>
@@ -35,10 +35,11 @@
                 <li class="hideOnMobile"><a href="projects.html">PROJECTS</a></li>
                 <li class="hideOnMobile"><a href="gallery.html">MEDIA</a></li>
                 <li class="hideOnMobile"><a href="contact.html">CONTACT</a></li>
-                <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
             </ul>
         </div>
         </nav>
+
         <script>
         function showSideBar() {
             const sidebar = document.querySelector('.sidebar')
@@ -48,39 +49,7 @@
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
         }
-        </script>
-
-    <div class="container">
-        <h3><span class="auto-typed"></span></h3>
+        </script>     
     </div>
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-    <script>
-        var type = new Typed(".auto-typed", {
-            strings:["I'm a hacker","*I'm an ethical hacker :)"],
-            typeSpeed: 115,
-            backSpeed: 20,
-            loop: true        
-        })
-    </script>
-    </div>
-
-    <section class="index-category">        
-        <a href="cyber-diary.html" class="index-category-box">
-            <div class="dark-overlay"></div>
-            <h3>CYBER DIARY</h3>
-        </a>
-        <a href="#" class="index-category-box">
-            <div class="dark-overlay"></div>
-            <h3>MOVIE PRODUCTION</h3>
-        </a>
-        <a href="ctf.html" class="index-category-box">
-            <div class="dark-overlay"></div>
-            <h3>CTFs</h3>
-        </a>        
-    </section>
-
-
 </body>
 </html>

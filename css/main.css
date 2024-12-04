@@ -69,12 +69,13 @@ nav a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #ff7b2ed7;
-    
+    color: #ff7b2ed7; 
 }
 
 nav a:hover{
     background-color: #5252529e;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 nav li:first-child{

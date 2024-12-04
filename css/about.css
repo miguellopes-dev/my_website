@@ -1,0 +1,35 @@
+.index-about{
+    width: 100%;
+    padding: 60px 0;    
+}
+
+.index-about-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.index-about-img img{
+    width: 500px;   
+}
+
+.index-about-text{
+    flex-basis: 455px;
+}
+
+.index-about-text h2{
+    font-size: 60px;
+    color: beige;
+}
+
+.index-about-text p{
+    font-size: 30px;
+    color: beige;
+    padding: 20px 0;
+    line-height: 40px;
+}
+
+@media only screen and (max-width:600px) {        
+   
+}
