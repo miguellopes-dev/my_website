@@ -1,0 +1,56 @@
+.ctf{
+    width: min(900px, 100% - 3rem);
+    margin-inline:auto;    
+    align-items: center;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: #323232;
+    
+}
+
+caption,td,th{
+    padding: 1rem;
+}
+
+caption, th {
+    text-align: left;
+}
+
+caption{
+    background: hsl(0, 0%, 65%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+th{
+    background: hsl(0 0% 65% / 0.5);
+    
+}
+
+tr:nth-of-type(2n) {
+    background: hsl(0 0% 65% / 0.1);
+}
+
+@media (max-width:650px){
+    
+    th{
+        display: none;
+    }
+    
+    td{
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+
+    td::before{
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+}
+    
