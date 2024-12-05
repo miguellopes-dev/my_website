@@ -6,13 +6,14 @@
 }
 
 table{
+    margin-top: 40px;
     width: 100%;
     border-collapse: collapse;
-    background: #323232;
-    
+    background: #ffa36dd7;    
 }
 
 caption,td,th{
+    font-family: Abel, serif;
     padding: 1rem;
 }
 
@@ -21,19 +22,20 @@ caption, th {
 }
 
 caption{
-    background: hsl(0, 0%, 65%);
-    font-size: 1.5rem;
+    background: #ff7b2ed7;
+    font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 th{
-    background: hsl(0 0% 65% / 0.5);
-    
+    background: #ff8641d7;
+    font-size: 2rem;
+    font-weight: 400;    
 }
 
 tr:nth-of-type(2n) {
-    background: hsl(0 0% 65% / 0.1);
+    background: #ff9355d7;
 }
 
 @media (max-width:650px){

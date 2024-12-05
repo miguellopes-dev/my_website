@@ -12,9 +12,10 @@
   ::-webkit-scrollbar-thumb {
     background: var(--primary-clr);
     border-radius: 50px;
-  } 
+  }  
 
   h5{
+    font-family: Abel, serif;
     color: #a9d800;
     height: 20vh;
     display: flex;
