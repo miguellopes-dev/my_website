@@ -24,8 +24,7 @@ caption, th {
 caption{
     background: #ff7b2ed7;
     font-size: 3rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 700;    
 }
 
 th{
