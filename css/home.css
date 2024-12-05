@@ -1,7 +1,7 @@
 /* Auto-Typed section */
 
 .container h3{    
-    font-size: 15px;
+    font-size: 18px;
     font-family:'Poppins', sans-serif;
     color: #a9d800;
     margin-top: 1%;
@@ -12,10 +12,10 @@
 
 .index-category{
     width: 100%;
-    padding: 80px 0 ;    
+    padding: 120px 0 ;    
     display: flex;
     justify-content: center;
-    column-gap: 40px;
+    column-gap: 60px;
     flex-wrap: wrap;
 }
 
@@ -37,7 +37,8 @@
     background-image:url(../media/cyber-diary.jpg);
 }
 .index-category-box:nth-child(2){
-    background-image:url(../photos/5.jpg)
+    background-image:url(../media/OSCP.png)
+
 }
 .index-category-box:nth-child(3){
     background-image:url(../media/ctf.jpg);
@@ -62,12 +63,13 @@
 
 .index-category-box h3{
     color: #a9d800;
-    font-size: 45px;
+    font-size: 75px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 70px;
     text-align: center;
     text-shadow: -1px 1px 2px #b2b2b2;
     z-index: 100;
+    cursor: pointer;
 }
 
 /*MOBILE VERSION*/
@@ -81,10 +83,5 @@
     .index-category-box{
         width: 300px;
         height: 300px;                
-    }
-
-    .index-category-box h3{
-        line-height: 45px;
-    }
-
+    }   
 }
