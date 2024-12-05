@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Abel;
+    src: url(../fonts/Abel-Regular.ttf);
+}
+
 /* Auto-Typed section */
 
 .container h3{    
     font-size: 18px;
-    font-family:'Poppins', sans-serif;
+    font-family: Abel, serif;
     color: #a9d800;
     margin-top: 1%;
     margin-left: 1%;    
@@ -63,6 +68,7 @@
 
 .index-category-box h3{
     color: #a9d800;
+    font-family: Abel, serif;
     font-size: 75px;
     font-weight: 600;
     line-height: 70px;
@@ -73,6 +79,14 @@
 }
 
 /*MOBILE VERSION*/
+
+@media only screen and (max-width:1320px) {
+
+    .index-category{
+        row-gap: 60px;
+    }    
+}
+
 
 @media only screen and (max-width:600px) {
 
