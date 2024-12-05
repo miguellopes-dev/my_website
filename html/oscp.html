@@ -7,7 +7,7 @@
     <link rel="icon" href="../media/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/ctf.css">
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
     
         <nav>
             <ul class="sidebar">
-                <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                 <li><a href="home.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="projects.html">PROJECTS</a></li>
@@ -35,7 +35,7 @@
                 <li class="hideOnMobile"><a href="projects.html">PROJECTS</a></li>
                 <li class="hideOnMobile"><a href="gallery.html">MEDIA</a></li>
                 <li class="hideOnMobile"><a href="contact.html">CONTACT</a></li>
-                <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
             </ul>
         </div>
         </nav>
@@ -49,41 +49,7 @@
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
         }
-        </script>     
-    </div>
-
-    <div class="ctf">
-        <table>
-            <caption>
-                CTFs Walkthroughs
-            </caption>
-
-            <tr>
-                <th>Platform</th>
-                <th>Date</th>
-                <th>Difficulty</th>     
-                <th>PDF</th>        
-            </tr>
-
-            <tr>
-                <td data-cell="Platform">HTB</td>
-                <td data-cell="Date">06/12/2024</td>
-                <td data-cell="Difficulty">MEDIUM</td>
-                <td data-cell="PDF">file</td>
-            </tr>
-            <tr>
-                <td data-cell="Platform">THM</td>
-                <td data-cell="Date">05/12/2024</td>
-                <td data-cell="Difficulty">EASY</td>
-                <td data-cell="PDF">file</td>
-            </tr>
-            <tr>
-                <td data-cell="Platform">HTB</td>
-                <td data-cell="Date">04/12/2024</td>
-                <td data-cell="Difficulty">HARD</td>
-                <td data-cell="PDF">file</td>
-            </tr>          
-        </table>
-    </div>
+        </script>
+    </div>   
 </body>
 </html>
